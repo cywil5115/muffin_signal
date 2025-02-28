@@ -42,6 +42,6 @@ distrobox-export --app signal-desktop
 
 ## Use script inside a container:
 ```
-mkdir temp_muffin/ && git clone https://github.com/cywil5115/muffin_signal.git temp_muffin && cd temp_muffin/ && sudo chmod +x run.sh && cd .. && rm -rf temp_muffin/
+mkdir temp_muffin/ && git clone https://github.com/cywil5115/muffin_signal.git temp_muffin && cd temp_muffin/ && sudo chmod +x run.sh && ./run.sh && cd .. && rm -rf temp_muffin/
 
 ```
