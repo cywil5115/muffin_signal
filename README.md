@@ -31,9 +31,17 @@ echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] 
 ```
 ### Update your package database and install Signal:
 ```
-sudo apt update && sudo apt install signal-desktop pipewire pipwire-audio pulse-audio
+sudo apt update && sudo apt install signal-desktop pipewire pipwire-audio pipewire-pulse
 ```
 ## Show your app in the main menu:
 ```
 distrobox-export --app signal-desktop
+```
+
+# OTHER OPTION
+
+## Use script inside a container:
+```
+mkdir temp_muffin/ && git clone https://github.com/cywil5115/muffin_signal.git temp_muffin && cd temp_muffin/ && sudo chmod +x run.sh && cd .. && rm -rf temp_muffin/
+
 ```
