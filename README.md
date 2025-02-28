@@ -1,6 +1,6 @@
 # Installation Steps
 
-## Create a container (optional unless I have BoxBuddy installed)
+## Create a container (optional unless you have BoxBuddy installed)
 
 ```
 distrobox-create --name muffin-signal --image debian:latest
