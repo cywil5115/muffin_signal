@@ -31,7 +31,7 @@ echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] 
 ```
 ### Update your package database and install Signal:
 ```
-sudo apt update && sudo apt install signal-desktop pipewire pipwire-audio pipewire-pulse
+sudo apt update && sudo apt install signal-desktop pipewire pipewire-audio pipewire-pulse
 ```
 ## Show your app in the main menu:
 ```
